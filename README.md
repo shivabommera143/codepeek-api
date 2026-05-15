@@ -17,7 +17,7 @@ A unified REST API that aggregates coding profile data from multiple competitive
 
 ## 🚀 Live API
 
-> Base URL: `https://your-deployment-url.com`
+> Base URL: ``
 
 ---
 
@@ -152,7 +152,3 @@ coding-profile-api/
 Pull requests are welcome! For major changes, please open an issue first.
 
 ---
-
-## 📄 License
-
-MIT
