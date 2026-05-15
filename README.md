@@ -17,7 +17,7 @@ A unified REST API that aggregates coding profile data from multiple competitive
 
 ## 🚀 Live API
 
-> Base URL: ``
+> Base URL: `https://codepeek-api.vercel.app/`
 
 ---
 
@@ -25,61 +25,61 @@ A unified REST API that aggregates coding profile data from multiple competitive
 
 ### GitHub
 ```
-GET /github/{g_handle}
+https://codepeek-api.vercel.app/github/{g_handle}
 ```
 Returns name, repos, followers, bio, location, and more.
 
-**Example:** `/github/shivabommera143`
+**Example:** `https://codepeek-api.vercel.app/github/shivabommera143`
 
 ---
 
 ### LeetCode
 ```
-GET /leetcode/{lc_handle}
+https://codepeek-api.vercel.app/leetcode/{lc_handle}
 ```
 Returns problems solved (easy/medium/hard), contest rating, ranking, and more.
 
-**Example:** `/leetcode/shivabommera0143`
+**Example:** `https://codepeek-api.vercel.app/leetcode/shivabommera0143`
 
 ---
 
 ### Codeforces
 ```
-GET /codeforces/{cf_handle}
+https://codepeek-api.vercel.app/codeforces/{cf_handle}
 ```
 Returns rating, rank, max rating, and organization.
 
-**Example:** `/codeforces/shiva_bommera`
+**Example:** `https://codepeek-api.vercel.app/codeforces/shiva_bommera`
 
 ---
 
 ### CodeChef
 ```
-GET /codechef/{cc_handle}
+https://codepeek-api.vercel.app/codechef/{cc_handle}
 ```
 Returns rating, division, global rank, country rank, and contests participated.
 
-**Example:** `/codechef/shiva_bommera`
+**Example:** `https://codepeek-api.vercel.app/codechef/shiva_bommera`
 
 ---
 
 ### GeeksforGeeks
 ```
-GET /gfg/{gfg_handle}
+https://codepeek-api.vercel.app/gfg/{gfg_handle}
 ```
 Returns score, monthly score, problems solved, and institute rank.
 
-**Example:** `/gfg/shivabommera143`
+**Example:** `https://codepeek-api.vercel.app/gfg/shivabommera143`
 
 ---
 
 ### HackerRank
 ```
-GET /hackerrank/{hr_handle}
+https://codepeek-api.vercel.app/hackerrank/{hr_handle}
 ```
 Returns name, level, company, job title, and more.
 
-**Example:** `/hackerrank/shivabommera0143`
+**Example:** `https://codepeek-api.vercel.app/hackerrank/shivabommera0143`
 
 ---
 
