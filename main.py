@@ -193,7 +193,7 @@ def get_gfg(gfg_handle: str):
         data = requests.get(f"https://authapi.geeksforgeeks.org/api-get/user-profile-info/?handle={gfg_handle}&article_count=false&redirect=true", timeout=10)
         response = data.json()
 
-        if response.get("status") != "success":
+        if not response.get("data"):
             return {"error": f"GFG user '{gfg_handle}' not found"}
 
         user = response["data"]
@@ -209,7 +209,6 @@ def get_gfg(gfg_handle: str):
         }
     except Exception as e:
         return {"error": "Something went wrong", "details": str(e)}
-
 
 @app.get("/hackerrank/{hr_handle}")
 def get_hackerrank(hr_handle: str):
